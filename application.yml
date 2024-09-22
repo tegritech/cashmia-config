@@ -1,0 +1,10 @@
+spring:
+  cache:
+    redis:
+      cache-null-values: true
+      time-to-live: 40000
+    type: redis
+  data:
+    redis:
+      host: 84.247.188.69
+      port: 6379

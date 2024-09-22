@@ -1,0 +1,48 @@
+client:
+  open:
+    server:
+      port: 1211
+  ssl:
+    server:
+      port: 1212
+
+isw:
+  application_type: PURCHASE
+  bi:
+    url: https://qa.interswitchng.com/kmw/v2/kimonoservice
+  cashout_url: https://kimono.interswitchng.com/kmw/kimonoservice
+  currency_code: 566
+  destination_account_number: 9110001568
+  extended_transaction_type: 6103
+  from_account: Default
+  ipek: 3F2216D8297BCE9C
+  key_label: "000002"
+  ksn: 000002DDDDE00001
+  ksn2: 0000000002DDDDE00002
+  language_info: EN
+  merchant_id: FBP204011329638
+  merchant_location: XtraPay Collectn  Peace Transport ABJ NG
+  receiving_institution_id: 639138
+  requery_url: https://kimono.interswitchng.com/kmw/v2/transaction/requery
+  surcharge: ''
+  terminal_id: 207011NI
+  to_account: ''
+  token_url: https://kimono.interswitchng.com/kmw/v2/requesttoken/perform-process
+  transaction_limit: 500000
+  uniqueId: 1142016190002323
+
+keystore_password: ''
+keystore_path: ''
+
+server:
+  port: 8086
+spring:
+  application:
+    logstash:
+      ip: 62.171.189.125
+      port: 5000
+  banner:
+    location: classpath:banner.txt
+  jackson:
+    serialization:
+      fail-on-empty-beans: false

@@ -1,0 +1,48 @@
+keystore_path: a.jks
+nibss:
+  server:
+    ssl:
+      port: '5334'
+    ip: 196.46.20.30 #todo: update port!!
+    open:
+      port: '5334'
+settlement:
+  push:
+    count: '30'
+  key: Ss8yq8DECmsDl9Yc2TDy0X6IpsH3oSWcfBbGPqNqi9dFoPyn6HCfoDUz9XWChiT5
+  url: https://api.xtrapay.ng/api/pos/xpress/credit
+peace:
+  settlement:
+    url: https://mobile.xtrapay.ng/api/kimono-cashout-secure-webhook
+terra:
+  settlement:
+    url: https://terramonie.xtrapay.ng/api/kimono-cashout-webhook
+    key: KimoPAX_o4G6tyUrcKu8kdKmPuuvjXgl4VtAxFh3riZT9u
+client:
+  ssl:
+    server:
+      port: '5052'
+  open:
+    server:
+      port: '5060'
+spring:
+  application:
+    logstash:
+      port: 5000
+      ip: 62.171.189.125
+  banner:
+    location: classpath:banner.txt
+  jackson:
+    serialization:
+      fail-on-empty-beans: 'false'
+kimono:
+  settlement:
+    url: https://mobile.xtrapay.ng/api/kimono-cashout-webhook
+    key: KimoPAX_o4G6tyUrcKu8kdKmPuuvjXgl4VtAxFh3riZT9u
+keystore_password: welcome@1
+server:
+  port: '8086'
+medusaFcmb:
+  server:
+    ip: test.3lineng.com
+    port: '2001'

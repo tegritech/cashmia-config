@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: translite-utility
+  sendgrid:
+    api-key: ueueueubuebueuche
+
+  rabbitmq:
+    host: 84.247.188.69
+    port: 5672
+    username: guest
+    password: guest
+
+  #    mail configuration properties
+  mail:
+    default-encoding: UTF-8
+    host: smtp.hostinger.com
+    password: Tr@nslit3n0r3ply
+    port: 465
+    properties:
+      mail:
+        debug: true
+        smtp:
+          auth: true
+          ssl:
+            enable: true
+          starttls:
+            enable: true
+    protocol: smtp
+    username: translite-noreply@xtrapay.ng
+mail:
+  from: ${spring.mail.username}
+  name: Tegritech TMS
+mailing-list: test@gmail.com
+server:
+  port: 6432

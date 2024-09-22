@@ -1,0 +1,50 @@
+spring:
+  application:
+    kibana-ip: 62.171.189.125
+    logstash:
+      port: 5000
+      ip: ${spring.application.kibana-ip}
+  seconddatasource:
+    driver-class-name: org.postgresql.Driver
+    username: ${db.credentials.username}
+    password: ${db.credentials.password}
+    jdbc-url: jdbc:postgresql://${db.credentials.ip}:${db.credentials.port}/translite
+    tomcat:
+      max-active: 5
+  jpa:
+    show-sql: 'false'
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: 'true'
+  datasource:
+    password: ${db.credentials.password}
+    driver-class-name: org.postgresql.Driver
+    username: ${db.credentials.username}
+    jdbc-url: jdbc:postgresql://${db.credentials.ip}:${db.credentials.port}/translite_transaction
+  banner:
+    location: classpath:banner.txt
+  jackson:
+    serialization:
+      fail-on-empty-beans: 'false'
+keystore_path: a.jks
+client:
+  ssl:
+    server:
+      port: '5043'
+  component-key1: '5E0A4328A6B1F04BD542F9703CAA51E2'
+  component-key2: '0BC200433A860FBF94FD60AD4765B9F1'
+  open:
+    server:
+      port: '5042'
+keystore_password: welcome@1
+server:
+  port: '8085'
+
+db:
+  credentials:
+    username: ayoola
+    password: Ay@w0la
+    ip: 84.247.188.72
+    port: 5432

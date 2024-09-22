@@ -1,0 +1,36 @@
+kimono:
+  settlement:
+    key: KimoPAX_o4G6tyUrcKu8kdKmPuuvjXgl4VtAxFh3riZT9u
+    url: https://mobile.xtrapay.ng/api/kimono-cashout-webhook
+peace:
+  settlement:
+    url: https://mobile.xtrapay.ng/api/kimono-cashout-secure-webhook
+
+settlement:
+  key: Ss8yq8DECmsDl9Yc2TDy0X6IpsH3oSWcfBbGPqNqi9dFoPyn6HCfoDUz9XWChiT5
+  push:
+    count: 100
+    interval: 10000
+  url: https://api.xtrapay.ng/api/pos/xpress/credit
+spring:
+  banner:
+    location: classpath:banner.txt
+  datasource:
+    password: Ay@w0la
+    url: jdbc:postgresql://84.247.188.72:5432/translite
+    username: ayoola
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: false
+terra:
+  settlement:
+    key: KimoPAX_o4G6tyUrcKu8kdKmPuuvjXgl4VtAxFh3riZT9u
+    url: https://laravel.cashmia.ng/api/kimono-cashout-webhook

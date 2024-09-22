@@ -1,0 +1,32 @@
+spring:
+  sendgrid:
+    api-key: ueueueubuebueuche
+  cloud:
+    config:
+      enabled: false
+
+  #    mail configuration properties
+  mail:
+    default-encoding: UTF-8
+    host: smtp.zeptomail.com
+    password: "wSsVR60k/EOhC/97zzekdu0/z1lTUlOiFUt7igf0v3X9TPyR8MczwhefAwOhSPcaFGc7QTNGprt8nUgBgTJciIwpnwtUWiiF9mqRe1U4J3x17qnvhDzPXGtckhWMJYoPwA9tmGBhGs0r+g=="
+    port: 587
+    properties:
+      mail:
+        debug: true
+        smtp:
+          auth: true
+          ssl:
+            enable: true
+          starttls:
+            enable: true
+    protocol: smtp
+    username: emailapikey
+    ssl:
+      protocols: TLSv1.2
+mail:
+  from: info@xtrapay.com.ng
+  name: Tegritech TMS
+mailing-list: test@gmail.com
+server:
+  port: 6432

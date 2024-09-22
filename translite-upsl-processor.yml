@@ -1,0 +1,42 @@
+up-zpk-dec-kcv: 439B5A
+up-zmk: C25E0BF73BC704972CF1C816027C2A9B
+up-kcv: 73969C
+up-vendor-id: 87001574
+keystore_path: a.jks
+settlement:
+  push:
+    count: '30'
+  key: Ss8yq8DECmsDl9Yc2TDy0X6IpsH3oSWcfBbGPqNqi9dFoPyn6HCfoDUz9XWChiT5
+  url: https://api.xtrapay.ng/api/pos/xpress/credit
+keystore_password: welcome@1
+uphost-host: 172.19.4.100
+tegritech-zpk: 6FC4C023FA6B72B94FAA3D9B65568129
+
+up:
+  sessionKey: '1234567890'
+spring:
+  application:
+    logstash:
+      ip: 62.171.189.125
+      port: 5000
+  banner:
+    location: classpath:banner.txt
+  jackson:
+    serialization:
+      fail-on-empty-beans: 'false'
+up-zpk-dec: 76FD3431EA0D768F83D920070407C734
+tegritech-kcv: 0E1C2E
+client:
+  ssl:
+    server:
+      port: '1213'
+  open:
+    server:
+      port: '1214'
+uphost-port: '54988'
+kimono:
+  settlement:
+    url: https://mobile.xtrapay.ng/api/kimono-cashout-webhook
+    key: KimoPAX_o4G6tyUrcKu8kdKmPuuvjXgl4VtAxFh3riZT9u
+up-zpk-enc: 9928719E0B823623001257A46B29057F
+up-zpk-enc-kcv: D15AC5
