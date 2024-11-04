@@ -44,7 +44,7 @@ server:
 
 db:
   credentials:
-    username: ayoola
-    password: Ay@w0la
-    ip: 84.247.188.72
+    username: cashmia_user
+    password: Q6CJGFakH88Z2vXF
+    ip: 157.173.99.58
     port: 5432
