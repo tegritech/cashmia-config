@@ -31,9 +31,9 @@ spring:
     protocol: smtp
     username: no-reply@tegritech.ng
   datasource:
-    password: Ay@w0la
-    url: jdbc:postgresql://84.247.188.72:5432/translite
-    username: ayoola
+    password: Q6CJGFakH88Z2vXF
+    url: jdbc:postgresql://157.173.99.58:5432/translite
+    username: cashmia_user
   jpa:
     hibernate:
       ddl-auto: validate
