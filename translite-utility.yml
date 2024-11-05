@@ -5,7 +5,7 @@ spring:
     api-key: ueueueubuebueuche
 
   rabbitmq:
-    host: 84.247.188.69
+    host: 157.173.99.61
     port: 5672
     username: guest
     password: guest
