@@ -17,7 +17,7 @@ up:
 spring:
   application:
     logstash:
-      ip: 62.171.189.125
+      ip: 157.173.99.65
       port: 5000
   banner:
     location: classpath:banner.txt
