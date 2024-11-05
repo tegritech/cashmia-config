@@ -17,7 +17,7 @@ spring:
     location: classpath:banner.txt
   datasource:
     password: Ay@w0la
-    url: jdbc:postgresql://84.247.188.72:5432/translite
+    url: jdbc:postgresql://157.173.99.58:5432/translite
     username: ayoola
   jackson:
     serialization:
