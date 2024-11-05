@@ -1,6 +1,6 @@
 spring:
   application:
-    kibana-ip: 62.171.189.125
+    kibana-ip: 157.173.99.65
     logstash:
       port: 5000
       ip: ${spring.application.kibana-ip}
