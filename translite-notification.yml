@@ -16,9 +16,9 @@ spring:
   banner:
     location: classpath:banner.txt
   datasource:
-    password: Ay@w0la
+    password: Q6CJGFakH88Z2vXF
     url: jdbc:postgresql://157.173.99.58:5432/translite
-    username: ayoola
+    username: cashmia_user
   jackson:
     serialization:
       fail-on-empty-beans: false
