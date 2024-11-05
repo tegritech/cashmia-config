@@ -1,7 +1,7 @@
 default:
   system:
     terminal:
-      prefix: 2090
+      prefix: 2CAS
   user:
     email: usertest@gmail.com
     firstname: User
@@ -13,7 +13,7 @@ spring:
   application:
     logstash:
       port: 5000
-      ip: 62.171.189.125
+      ip: 157.173.99.65
   mail:
     default-encoding: UTF-8
     host: mail.tegritech.ng
