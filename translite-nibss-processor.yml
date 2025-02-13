@@ -2,10 +2,10 @@ keystore_path: a.jks
 nibss:
   server:
     ssl:
-      port: '5018'
+      port: '4018'
     ip: 196.6.103.18 #todo: update port!!
     open:
-      port: '5018'
+      port: '4018'
 settlement:
   push:
     count: '30'
