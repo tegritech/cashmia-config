@@ -2,9 +2,9 @@ kimono:
   settlement:
     key: KimoPAX_o4G6tyUrcKu8kdKmPuuvjXgl4VtAxFh3riZT9u
     url: https://mobile.xtrapay.ng/api/kimono-cashout-webhook
-peace:
+cashmia:
   settlement:
-    url: https://mobile.xtrapay.ng/api/kimono-cashout-secure-webhook
+    url: https://abs.cashmia.net/api/realmd-translite-notify
 
 settlement:
   key: Ss8yq8DECmsDl9Yc2TDy0X6IpsH3oSWcfBbGPqNqi9dFoPyn6HCfoDUz9XWChiT5
