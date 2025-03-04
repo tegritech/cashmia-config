@@ -4,7 +4,7 @@ kimono:
     url: https://mobile.xtrapay.ng/api/kimono-cashout-webhook
 cashmia:
   settlement:
-    url: https://abs.cashmia.net/api/realmd-translite-notify
+    url: https://posapi.cashmia.net/api/realmd-translite-notify
 
 settlement:
   key: Ss8yq8DECmsDl9Yc2TDy0X6IpsH3oSWcfBbGPqNqi9dFoPyn6HCfoDUz9XWChiT5
